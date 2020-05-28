@@ -16,6 +16,8 @@
         <module>nacos-config-dataid</module>
         <module>nacos-config-group</module>
         <module>nacos-config-namespace</module>
+        <module>nacos-namespace-one</module>
+        <module>nacos-namespace-two</module>
     </modules>
 
     <dependencies>

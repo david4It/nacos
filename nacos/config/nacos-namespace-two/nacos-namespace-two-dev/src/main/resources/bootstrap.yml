@@ -1,0 +1,19 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: nacos-namespace-two
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 3968f85b-b9d4-4cb3-bcd5-19b24c728571
+        group: GROUP_TWO
+        prefix: ${spring.application.name}
+        file-extension: yml
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 3968f85b-b9d4-4cb3-bcd5-19b24c728571
+        group: GROUP_TWO
