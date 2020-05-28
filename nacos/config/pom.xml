@@ -13,6 +13,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>nacos-config</module>
+        <module>nacos-config-dataid</module>
+        <module>nacos-config-group</module>
+        <module>nacos-config-namespace</module>
     </modules>
 
     <dependencies>
